@@ -12,8 +12,5 @@ area = square_area - bench
 area_tile = area / tile
 work_time = area_tile * 0.2
 
-area_tile_dig = round(area_tile, 2)
-work_time_area = round(work_time, 2)
-
-print(area_tile_dig)
-print(work_time_area)
+print(round(work_time, 2))
+print(round(area_tile, 2))
